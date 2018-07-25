@@ -1,0 +1,185 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Helvetica Neue", sans-serif;
+  color: #aaa;
+  padding: 100px 0 0 0;
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 0.95em;
+}
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid lightgrey;
+  margin: 3em 0;
+  padding: 0;
+  opacity: 0.5;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+.black{
+  color: #222;
+}
+a{
+  text-decoration: none;
+  color: indigo;
+}
+.container{
+  width: 40%;
+  margin: 0 auto;
+}
+.header-cont{
+  width: 33%;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.logo{
+  border-radius: 50%;
+  width: 130px;
+}
+.flex{
+  display: flex;
+}
+.icons{
+  margin: 35px 0;
+}
+.icons ul li a{
+  color: #222;
+  padding: 5px;
+}
+.flex-center{
+  justify-content: center;
+}
+.flex-end{
+  justify-content: flex-end;
+}
+.flex-between{
+  justify-content: space-between;
+}
+.text-align-center{
+  text-align: center;
+}
+
+nav ul li a{
+  padding: 10px 15px;
+}
+footer{
+  padding: 50px;
+}
+.blog p.flex {
+  margin: 35px 0;
+  justify-content: space-between;
+}
+.blog p.flex a{
+  color: #aaa;
+}
+.blog p span:first-child:hover{
+  background-color: #cfe7f7
+}
+.heading h1{
+  font-size: 1.7em;
+}
+.heading p{
+  font-size: 0.9em;
+}
+.heading span{
+  font-size: 0.7em;
+  background-color: lightgrey;
+  color: #222;
+  padding: 3px 5px;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 15px 0;
+}
+.projects ul{
+  display: inline-block;
+}
+.projects ul li,
+.about ul li{
+  list-style: inherit;
+}
+.projects span
+{
+  text-align: left;
+  text-decoration: underline;
+}
+.comments img{
+  float: left;
+  width: 45px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.comment-autor{
+  width: 73%;
+}
+.share-buttons{
+  width: 27%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: flex-end;
+}
+.share-buttons a{
+  padding: 2px 7px;
+  display: inline-block;
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.share-buttons a:first-child{
+background-color: #4fafed;
+}
+.share-buttons a:last-child{
+  background-color: #4361b3;
+}
+.comments p,
+.comments h5{
+  margin: 0 0 0 15px;
+}
+.comments p{
+  font-size: 12px;
+}
+.circle{
+  font-size: 10px;
+  position: relative;
+}
+.circle::after{
+  content: "";
+  position: absolute;
+  background-color: lightgrey;
+  width: 255px;
+  height: 1px;
+  top: 50%;
+  right: 0;
+}
+.circle::before{
+  content: "";
+  position: absolute;
+  background-color: lightgrey;
+  width: 255px;
+  height: 1px;
+  top: 50%;
+  left: 0;
+}
+.about nav ul li{
+  list-style: none;
+}
+.about ul{
+  padding-left: 30px;
+}
+.about ul li a{
+  text-decoration: underline;
+}
+.about img{
+  width: 250px;
+}
